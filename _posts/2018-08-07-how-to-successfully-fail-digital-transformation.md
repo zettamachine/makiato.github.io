@@ -3,7 +3,7 @@ layout: post
 title: How to successfully fail Digital Transformation
 categories: [digital transformation]
 tags: [digital transformation, digital thinking, enterprise architecture]
-headshot: /images/blog/digital-enterprise-arch.jpg
+headshot: /images/blog/successfully-fail.jpg
 ---
 ![How to successfully fail digital transformation]({{ page.headshot }})
 
