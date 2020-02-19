@@ -2,6 +2,7 @@
 theme: jekyll-theme-minimal
 title: Zettamachine - Digital Thinking
 description: Zettamachine is a blog on Architecture and Digital Transformation
+author: Mehmet Akyuz
 
 #Navigation Variables
 url: 'https://zettamachine.com'
@@ -12,5 +13,5 @@ paginate: 4
 google_analytics: UA-43111163-1
 disqus: zettamachine
 
-#Formatting
+#Content
 excerpt_separator: <!--more-->
