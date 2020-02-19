@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="/styles/zettamachine.css">
+	  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Raleway" rel="stylesheet>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      
+      <nav class="navbar is-transparent has-transparent-background is-fixed-top" role="navigation" aria-label="main navigation">
+		<div class="container is-fluid">
+			<div class="navbar-brand">
+				<div class="logo" direction="column" size="5" colour="#eee" weight="2"></div>
+                <div class="navbar-burger burger" data-target="zetta-burger">
+			      <span></span>
+			      <span></span>
+			      <span></span>
+		    	</div>
+			</div>
+		    <div id="zetta-burger" class="navbar-menu">
+			    <div class="navbar-end">
+			      	<a href="blog.bulma.html" class="navbar-item has-text-light">
+			            Blog
+			        </a>
+			        <a href="#zetta-contact" class="navbar-item has-text-light">
+			            Contact
+			        </a>
+			        <a href="#zetta-about" class="navbar-item has-text-light">
+			            About
+			        </a>
+			    </div>
+		    </div>
+		</div>
+	</nav>
+	<section class="section gap"></section>
+                              
+   <section class="section">
+		<div class="container is-fluid">
+			<div  class="columns">
+				<div class="column is-one-quarter is-offset-one-quarter">
+					<div class="card">
+						<div class="card-image is-front-image">
+							<figure class="image is-4by3">
+				          			<img src="superpowers.jpg" class="is-grayscale">
+				    		</figure>
+						</div>
+						<div class="card-content">
+							<p class="title">The superpowers of a technology architect</p>
+							<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p><a class="content" href="#">Read more.</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="column is-one-quarter">
+					<div class="card">
+						<div class="card-image is-front-image">
+							<figure class="image is-4by3">
+				          			<img src="rome.jpg" class="is-grayscale">
+				    		</figure>
+						</div>
+						<div class="card-content">
+							<p class="title">Design thinking</p>
+							<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p><a class="content" href="#">Read more.</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="column is-one-quarter">
+					<div class="card">
+						<div class="card-image is-front-image">
+							<figure class="image is-4by3">
+				          			<img src="good-idea.jpg" class="is-grayscale">
+				    		</figure>
+						</div>
+						<div class="card-content">
+							<p class="title">So what is digital enterprise architecture</p>
+							<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p><a class="content" href="#">Read more.</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section has-background-light">
+		<div class="container is-fluid">
+			<div class="columns">
+				<div class="column is-half">
+					<a id="zetta-about"></a>
+					<p class="title">Hi there!</p>
+					<p class="content has-small-padding">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+					</p>
+					<p class="content has-small-padding">
+						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+						anim id est laborum.
+					</p>
+				</div>
+				<div class="column is-half">
+					<a id="zetta-contact"></a>
+					<p class="title">Send me a message</p>
+					<form id="zetta-contact-form" class="has-small-padding">
+						<div class="field">
+			  				<label class="label">Name</label>
+			  				<div class="control has-icons-left">
+			   					<input class="input" id="zetta-contact-name" type="name" placeholder="Name">
+			   					<span class="icon is-small is-left">
+      								<i class="fa fa-user"></i>
+    							</span>
+			  				</div>
+						</div>
+						<div class="field">
+			  				<label class="label">Email</label>
+			  				<div class="control has-icons-left">
+			   					<input class="input" id="zetta-contact-replyto" type="_replyto" placeholder="Email">
+			   					<span class="icon is-small is-left">
+      								<i class="fa fa-envelope"></i>
+    							</span>
+			  				</div>
+						</div>
+						<div class="field">
+							<label class="label">How can I help?</label>
+							<div class="control">
+								<textarea class="textarea" id="zetta-contact-message" name="message" placeholder="e.g. Hello zettamachine"></textarea>
+							</div>
+						</div>
+						<div class="control is-gray">
+			    			<button class="button is-link has-background-dark">Submit</button>
+			  			</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="columns">
+				<div class="column has-text-centered">
+					<div class="logo" direction="row" size="2" colour="#333" weight="1"></div>
+				</div>
+				<div class="column has-text-centered">
+					<a href="https://github.com/makiato/">makiato <i class="fa fa-github" aria-hidden="true"></i></a>
+				</div>
+				<div class="column has-text-centered">
+					<a href="https://github.com/makiato/">makiato <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				</div>
+				<div class="column has-text-centered">
+					<a href="https://github.com/makiato/">makiato <i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</div>
+				<div class="column has-text-centered">
+					<a href="https://github.com/makiato/">makiato <i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</div>
+				<div class="column has-text-centered">
+					<a href="https://github.com/makiato/">makiato <i class="fa fa-github" aria-hidden="true"></i></a>
+				</div>
+			</nav>
+		</div>
+	</footer>                           
+                              
+                        
+      <!--footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer-->
+                                                                                                  
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+  </body>
+</html>
