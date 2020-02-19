@@ -9,3 +9,6 @@ url: 'https://zettamachine.com'
 #Tags
 google_analytics: UA-43111163-1
 disqus: zettamachine
+
+#Formatting
+excerpt_separator: <!--more-->

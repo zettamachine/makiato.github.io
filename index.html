@@ -2,4 +2,9 @@
 layout: default
 ---
 
-Zettamachine is under maintenance. 
+ {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <img src="{{ post.headshot }}" />
+    </li>
+  {% endfor %}
