@@ -3,7 +3,7 @@ layout: post
 title: So, What is Digital Enterprise Architecture?
 categories: [enterprise architecture]
 tags: [digital transformation, digital thinking, enterprise architecture]
-headshot: /images/blog/superpowers.jpg
+headshot: /images/blog/digital-enterprise-arch.jpg
 ---
 ![So, What is Digital Enterprise Architecture?]({{ page.headshot }})
 
