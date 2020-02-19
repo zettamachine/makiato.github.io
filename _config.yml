@@ -1,3 +1,11 @@
+# Theme variables
 theme: jekyll-theme-minimal
 title: Zettamachine - Digital Thinking
 description: Zettamachine is a blog on Architecture and Digital Transformation
+
+#Navigation Variables
+url: 'https://zettamachine.com'
+
+#Tags
+google_analytics: UA-43111163-1
+disqus: zettamachine
