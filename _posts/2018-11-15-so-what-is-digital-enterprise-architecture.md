@@ -5,7 +5,7 @@ categories: [enterprise architecture]
 tags: [digital transformation, digital thinking, enterprise architecture]
 headshot: /images/blog/superpowers.jpg
 ---
-![So, What is Digital Enterprise Architecture?](/images/insights/IMG_20180903_093157.jpg)
+![So, What is Digital Enterprise Architecture?]({{ page.headshot }})
 
 Some time ago, I wrote an article about [what is Digital Architecture](https://www.linkedin.com/pulse/what-digital-architecture-anyway-mehmet-akyuz/). As a continuation of that article, also as apparently I am not very creative in finding new topics, I would like to focus on Digital Enterprise Architecture this time.
 

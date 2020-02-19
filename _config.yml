@@ -5,6 +5,8 @@ description: Zettamachine is a blog on Architecture and Digital Transformation
 
 #Navigation Variables
 url: 'https://zettamachine.com'
+permalink: /:year/:month/:day/:title:output_ext
+paginate: 4
 
 #Tags
 google_analytics: UA-43111163-1
