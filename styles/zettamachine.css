@@ -1,7 +1,15 @@
 html {
-	background-color: transparent;
+	background: transparent;
 }
 body {
 	font-family: 'Roboto Slab';
 	background: rgb(31,32,34);
+}
+.wrapper {
+    background-image: url('images/david.wrapper.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	max-height: 100vh;
 }
