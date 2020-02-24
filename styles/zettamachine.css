@@ -22,3 +22,9 @@ body {
     background: rgba(3, 44, 53, 0.4);
     mix-blend-mode: multiply
 }
+.navbar {
+    background: rgb(31,32,34);
+}
+.navbar-menu a, .title {
+	font-family: 'Raleway';
+}
