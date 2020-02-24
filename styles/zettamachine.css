@@ -14,3 +14,11 @@ body {
 .vertical-gap {
 	height: 65vh;
 }
+.is-front-image {
+	position: relative;
+}
+.is-front-image:after {
+	position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;
+    background: rgba(3, 44, 53, 0.4);
+    mix-blend-mode: multiply
+}
