@@ -34,3 +34,6 @@ body {
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+.is-fixed-background {
+    background-attachment: fixed;
+}

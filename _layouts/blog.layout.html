@@ -18,16 +18,23 @@
 </head>
 
 <body>
-	<div class="wrapper">
+	<div class="wrapper is-fixed-background">
 
         <!-- Navigation bar-->
         {% include nav.html %}}
-
-        
-           <div class="header"> logo here </div>
-        
-
-		{{content}}
+        <section class="section">
+			<div class="container is-fluid">
+                <div class="columns">
+                    <div class="column is-one-third">
+                            <div class="header"> logo here </div>
+                        </div>
+                        <div class="column is-two-thirds">
+                            {{content}}
+                        </div>
+                    </div>
+			    </div>
+			</div>
+        </section>
 
         {% include footer.html %}
 
