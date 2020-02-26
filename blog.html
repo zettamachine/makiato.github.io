@@ -1,0 +1,11 @@
+---
+layout: blog.layout 
+---
+
+    {% for post in site.posts %}
+      <section class="section has-background-light">
+			<div class="container is-fluid">
+                 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			</div>
+      </section>
+    {% endfor %}

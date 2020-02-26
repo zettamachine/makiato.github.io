@@ -21,32 +21,7 @@
 	<div class="wrapper">
 
         <!-- Navigation bar-->
-    	<nav class="navbar is-transparent has-transparent-background is-fixed-top" role="navigation"
-			aria-label="main navigation">
-			<div class="container is-fluid">
-				<div class="navbar-brand">
-					<div class="logo"></div>
-					<div class="navbar-burger burger" data-target="zetta-burger">
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
-				</div>
-				<div id="zetta-burger" class="navbar-menu">
-					<div class="navbar-end">
-						<a href="/blog" class="navbar-item has-text-light">
-							Blog
-						</a>
-						<a href="#zetta-contact" class="navbar-item has-text-light">
-							Contact
-						</a>
-						<a href="#zetta-about" class="navbar-item has-text-light">
-							About
-						</a>
-					</div>
-				</div>
-			</div>
-		</nav>
+        {% include nav.html %}}
 
         <!-- The vertical gap between the navigation and the cards section -->
 		<section class="section vertical-gap"></section>
