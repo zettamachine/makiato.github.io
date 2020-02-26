@@ -3,13 +3,18 @@ layout: blog.layout
 ---
 
     {% for post in site.posts %}
-		<div class="box">
-            <article class="post">
-                <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-                <div class="entry">
-                    {{ post.excerpt }}
-                </div>
-                <a href="{{ post.url}}"> Read more</a>
-            </article>
-		</div>
+        <div class="card article">
+			<div class="card-image is-front-imag">
+				<figure class="image is-4by3">
+					<img src="{{ post.headshot }}" class="is-grayscale">
+		   		</figure>
+			</div>
+			<div class="card-content article-content">
+				<h1 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+				<p class="content">
+                    {{ post.excerpt | strip_html }}
+		    	</p>
+				<p><a href="{{ post.url}}"> Read more</a></p>
+			</div>
+	    </div>
     {% endfor %}

@@ -28,12 +28,12 @@ body {
 .navbar-menu a, .title {
 	font-family: 'Raleway';
 }
-.header {
-  width:270px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
-}
 .is-fixed-background {
     background-attachment: fixed;
+}
+.article {
+    
+}
+.header {
+    float: left; position: fixed;
 }
