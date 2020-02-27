@@ -13,6 +13,8 @@ Having spent close to two decades in technology architecture, I tried imagining 
 
 None of these would be considered a superpower unless it comes with a flashy name. The outcome is not as striking as [Negasonic Teenage Warhead](http://marvel.wikia.com/wiki/Ellie_Phimister_(Earth-616)), but I tried my best.
 
+<!--more-->
+
 ## Neutral Perception
 
 I'm not even sure if I have picked the right words to describe this superpower, but it surely points to a fundamental skill of a good architect. Getting rid of preconceptions and listening to comprehend but not to respond is an art of mind and harder than it sounds. [This article](https://www.kornferry.com/institute/514-the-science-of-listening) explains the science of listening, and how our brains process what we hear. We tend to handpick bits and pieces from the entire conversation which correlate to our past learnings and experiences and what we already know. Once we think we got the gist of the talk, we quickly land on a judgment and rest of the communication seems unworthy of attention. We instantly shift our focus more on building up a response than listening what the other party has to say. Although this is a common human behaviour, it is unacceptable for a super architect.
