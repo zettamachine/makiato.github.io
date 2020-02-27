@@ -23,14 +23,16 @@ body {
     mix-blend-mode: multiply
 }
 .navbar {
-    background: rgb(31,32,34);
-    background: #000;
+    background: rgb(21,22,24);
 }
 .navbar-menu a, .title {
 	font-family: 'Raleway';
 }
 .is-fixed-background {
     background-attachment: fixed;
+}
+.has-background-transparent {
+    background: transparent
 }
 .article {
     
