@@ -1,11 +1,11 @@
 ---
 layout: post
-title: So, What is Digital Enterprise Architecture?
+title: 5 Digital Enterprise Architecture strategies to establish your company’s competitive edge
 categories: [enterprise architecture]
 tags: [digital transformation, digital thinking, enterprise architecture]
 headshot: /images/blog/digital-enterprise-arch.jpg
 ---
-![So, What is Digital Enterprise Architecture?]({{ page.headshot }})
+![5 Digital Enterprise Architecture strategies to establish your company’s competitive edge]({{ page.headshot }})
 
 Some time ago, I wrote an article about [what is Digital Architecture](https://www.linkedin.com/pulse/what-digital-architecture-anyway-mehmet-akyuz/). As a continuation of that article, also as apparently I am not very creative in finding new topics, I would like to focus on Digital Enterprise Architecture this time.
 
