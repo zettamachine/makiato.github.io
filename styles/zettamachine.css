@@ -24,6 +24,7 @@ body {
 }
 .navbar {
     background: rgb(31,32,34);
+    background: #000;
 }
 .navbar-menu a, .title {
 	font-family: 'Raleway';
