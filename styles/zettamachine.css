@@ -37,6 +37,14 @@ body {
 .article {
     
 }
-.header {
-    float: left; position: fixed;
+
+.sidebar {
+    color: #fff;
 }
+
+.logo-1 {font: 1.2em}
+.logo-2 {font: italic 0.6em}
+.logo-3 {}
+.logo-4 {}
+.logo-5 {}
+.logo-6 {}
