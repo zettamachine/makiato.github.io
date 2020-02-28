@@ -35,14 +35,24 @@ body {
     background: transparent;
 }
 .article {
-    
+    padding: 1rem;
+    background: rgb(251,252,254);
+    border: 1px solid rgb(231,232,234);
+}
+.article-header {
+    position: relative;
+}
+.article-title {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
 }
 .sidebar {
-    color: #fff;
+    color: hsl(0, 0%, 96%);
 }
 
-.logo-1 {font: 1.2em}
-.logo-2 {font: italic 0.6em}
+.logo-1 {font: 1.2rem}
+.logo-2 {font: italic 0.6rem}
 .logo-3 {}
 .logo-4 {}
 .logo-5 {}
