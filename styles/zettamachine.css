@@ -47,13 +47,21 @@ body {
     top: 1rem;
     left: 1rem;
 }
+.article-title a {
+    background-color: rgb(31,32,34);
+    color: rgb(231,232,234)
+}
+.article-title a:hover {
+    background-color: rgb(51,52,54);
+    color: rgb(251,252,254)
+}
 .sidebar {
-    color: hsl(0, 0%, 96%);
+    color: rgb(231,232,234)
 }
 
-.logo-1 {font: 1.2rem}
-.logo-2 {font: italic 0.6rem}
-.logo-3 {}
-.logo-4 {}
-.logo-5 {}
-.logo-6 {}
+.logo-1 {font-size: 1.2rem}
+.logo-2 {font-size:0.6rem}
+.logo-3 {font-size:0.6rem}
+.logo-4 {font-size:0.6rem}
+.logo-5 {font-size:0.6rem}
+.logo-6 {font-size:0.6rem}
