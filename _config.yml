@@ -10,7 +10,6 @@ permalink: /:year/:month/:day/:title:output_ext
 paginate: 4
 
 #Tags
-google_analytics: UA-43111163-1
 disqus: zettamachine
 
 #Content
