@@ -16,6 +16,7 @@ body {
 }
 .is-front-image {
 	position: relative;
+    filter: grayscale(1);
 }
 .is-front-image:after {
 	position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;
