@@ -10,6 +10,9 @@ body {
 h1 {
     font-size: 5vw;
 }
+a {
+    color: rgb(21,22,24);
+}
 .section {
     background: transparent;
 }
@@ -53,8 +56,8 @@ h1 {
     background: rgb(21,22,24);
     background: rgba(16,20,23, 0.5);
 }
-.navbar-menu a, .title {
-	font-family: 'Raleway';
+.nav a, .title {
+	/* font-family: 'Raleway'; */
 }
 .has-background-transparent {
     background: transparent;
@@ -87,7 +90,10 @@ h1 {
     color: rgb(231,232,234);
     position: relative;
 }
-
+.sub-logo {
+    cursor: pointer;
+    padding: 0.8rem;
+}
 .logo-1 {font-size: 1.2rem}
 .logo-2 {font-size:0.6rem}
 .logo-3 {font-size:0.6rem}
@@ -95,9 +101,11 @@ h1 {
 .logo-5 {font-size:0.6rem}
 .logo-6 {font-size:0.6rem}
 
+.latest-posts {
+    padding: 0.8rem;
+}
 .latest-posts a {
-    background-color: rgba(3, 44, 53, 0.6);
-    color: rgb(231,232,234);
+    font-size: 0.8rem;
 }
 
 .image.is-4by3 {
