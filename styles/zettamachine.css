@@ -1,9 +1,11 @@
 html {
 	background: transparent;
+    font-size: 16px;
 }
 body {
 	font-family: 'Roboto Slab';
 	background: rgb(21,22,24);
+    background: rgb(16,20,23);
 }
 h1 {
     font-size: 5vw;
@@ -13,12 +15,18 @@ h1 {
 }
 .wrapper {
     background: transparent url('../images/david.wrapper.jpg') no-repeat center center;
-	background-size: cover;
+	background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 	height: auto;
 	max-height: 100vh;
 }
 .blog-body {
-    background: transparent url('../images/david.wrapper.jpg') no-repeat center center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-attachment: fixed;
     background-size: cover;
 	height: auto;
@@ -35,14 +43,15 @@ h1 {
 }
 .is-front-image:after {
 	position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;
-    background: rgba(3, 44, 53, 0.6);
+    background: rgba(3, 44, 53, 0.5);
+    /*background: rgba(203, 244, 253, 0.5);*/
+    background: rgba(21,22,24, 0.5);
+    background: rgba(16,20,23, 0.5);
     mix-blend-mode: multiply
-}
-.is-grayscale {
-    filter: grayscale(1);
 }
 .navbar {
     background: rgb(21,22,24);
+    background: rgba(16,20,23, 0.5);
 }
 .navbar-menu a, .title {
 	font-family: 'Raleway';
@@ -51,7 +60,7 @@ h1 {
     background: transparent;
 }
 .article {
-    padding: 1.6vw;
+    padding: 1rem;
     margin-bottom: 3vw;
     background: rgb(251,252,254);
     border: 1px solid rgb(231,232,234);
@@ -61,14 +70,14 @@ h1 {
 }
 .article-title {
     position: absolute;
-    top: 2vw;
-    left: 2vw;
+    top: 1rem;
+    left: 1rem;
 }
 .article-title a {
     background-color: rgba(3, 44, 53, 0.6);
     color: rgb(231,232,234);
-    font-size: 65%;
-    font-stretch: 100%;
+    font-size: 75%;
+    line-height: 90%;
 }
 .article-title a:hover {
     background-color: rgb(51,52,54);
@@ -90,3 +99,13 @@ h1 {
     background-color: rgba(3, 44, 53, 0.6);
     color: rgb(231,232,234);
 }
+
+.image.is-4by3 {
+    padding-top: 0;
+}
+/*
+.ci-image-wrapper {
+    position: relative;
+    top: 0;
+}
+*/

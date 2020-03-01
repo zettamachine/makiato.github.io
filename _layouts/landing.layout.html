@@ -20,7 +20,7 @@
 
 <body>
     {% include tag.end.html %}
-	<div class="wrapper">
+	<div class="wrapper" ci-bg-url="/images/david.wrapper.jpg">
 
         <!-- Navigation bar-->
         {% include nav.html %}}
@@ -35,10 +35,10 @@
                     {% for post in site.posts limit:3 %}
                         <div class="column is-one-quarter">
                             <div class="card">
-                                <div class="card-image is-front-image">
-                                    <figure class="image is-4by3">
-                                        <img src="{{ post.headshot }}" class="is-grayscale">
-                                </figure>
+                                <div class="card-image">
+                                    <figure class="image is-4by3 is-front-image">
+                                        <img src="{{ post.headshot }}" ci-src="{{ post.headshot }}" ci-params="gray=1" alt="{{ post.title }}">
+                                    </figure>
                                 </div>
                                 <div class="card-content">
                                     <p class="title">{{ post.title }}</p>
@@ -74,7 +74,7 @@
 
 	</div>
     <script src="{{ "/scripts/zettamachine.js?v=" | append: site.github.build_revision | relative_url }}"> </script> 
-	<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <script src="https://use.fontawesome.com/ee62852333.js"></script>
+	
+    {% include plugin-scripts.html %}
 </body>
 </html>

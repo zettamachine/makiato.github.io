@@ -18,7 +18,7 @@
     {% include tag.start.html %}
 </head>
 
-<body class="blog-body">
+<body class="blog-body" ci-bg-url="/images/david.wrapper.jpg">
     {% include tag.end.html %}
 	<div class="blog-wrapper">
 
@@ -58,7 +58,7 @@
 
 	</div>
     <script src="{{ "/scripts/zettamachine.js?v=" | append: site.github.build_revision | relative_url }}"> </script> 
-	<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <script src="https://use.fontawesome.com/ee62852333.js"></script>
+
+    {% include plugin-scripts.html %}
 </body>
 </html>

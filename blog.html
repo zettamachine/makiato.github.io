@@ -5,7 +5,7 @@ layout: blog.layout
     {% for post in site.posts %}
         <div class="article">
 			<div class="article-header is-4by3">
-				<img src="{{ post.headshot }}" alt="{{ post.title }}"/>
+				<img ci-src="{{ post.headshot }}" ci-ratio="1.5" ci-fill="100%" ci-params="gray=0" alt="{{ post.title }}"/>
                 <p class="title article-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
 			</div>
 			<div class="article-body">
