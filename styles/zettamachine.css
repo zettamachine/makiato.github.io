@@ -3,17 +3,29 @@ html {
 }
 body {
 	font-family: 'Roboto Slab';
-	background: rgb(31,32,34);
+	background: rgb(21,22,24);
 }
 h1 {
     font-size: 5vw;
 }
-
+.section {
+    background: transparent;
+}
 .wrapper {
     background: transparent url('../images/david.wrapper.jpg') no-repeat center center;
 	background-size: cover;
 	height: auto;
 	max-height: 100vh;
+}
+.blog-body {
+    background: transparent url('../images/david.wrapper.jpg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+	height: auto;
+	max-height: 100vh;
+}
+.blog-wrapper {
+    background: transparent;
 }
 .vertical-gap {
 	height: 65vh;
@@ -34,9 +46,6 @@ h1 {
 }
 .navbar-menu a, .title {
 	font-family: 'Raleway';
-}
-.is-fixed-background {
-    background-attachment: fixed;
 }
 .has-background-transparent {
     background: transparent;
