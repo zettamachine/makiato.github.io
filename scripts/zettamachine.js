@@ -1,3 +1,2 @@
 var user = 'hello', domain = 'zettamachine.com';
-
-document.getElementById('email').innerHTML = '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+document.getElementById('email').innerHTML = '<i class="fa fa-envelope"></i> <a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';

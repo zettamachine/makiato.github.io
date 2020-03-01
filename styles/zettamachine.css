@@ -5,6 +5,10 @@ body {
 	font-family: 'Roboto Slab';
 	background: rgb(31,32,34);
 }
+h1 {
+    font-size: 5vw;
+}
+
 .wrapper {
     background: transparent url('../images/david.wrapper.jpg') no-repeat center center;
 	background-size: cover;
@@ -16,12 +20,14 @@ body {
 }
 .is-front-image {
 	position: relative;
-    filter: grayscale(1);
 }
 .is-front-image:after {
 	position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;
-    background: rgba(3, 44, 53, 0.4);
+    background: rgba(3, 44, 53, 0.6);
     mix-blend-mode: multiply
+}
+.is-grayscale {
+    filter: grayscale(1);
 }
 .navbar {
     background: rgb(21,22,24);
@@ -36,7 +42,7 @@ body {
     background: transparent;
 }
 .article {
-    padding: 1rem;
+    padding: 2vw;
     background: rgb(251,252,254);
     border: 1px solid rgb(231,232,234);
 }
@@ -45,12 +51,14 @@ body {
 }
 .article-title {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
+    top: 2vw;
+    left: 2vw;
 }
 .article-title a {
-    background-color: rgb(31,32,34);
-    color: rgb(231,232,234)
+    background-color: rgba(3, 44, 53, 0.6);
+    color: rgb(231,232,234);
+    font-size: 65%;
+    font-stretch: 100%;
 }
 .article-title a:hover {
     background-color: rgb(51,52,54);
