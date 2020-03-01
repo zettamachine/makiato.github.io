@@ -4,7 +4,6 @@ html {
 }
 body {
 	font-family: 'Roboto Slab';
-	background: rgb(21,22,24);
     background: rgb(16,20,23);
 }
 h1 {
@@ -17,7 +16,6 @@ a {
     background: transparent;
 }
 .wrapper {
-    background: transparent url('../images/david.wrapper.jpg') no-repeat center center;
 	background-color: transparent;
     background-repeat: no-repeat;
     background-position: center center;
@@ -46,18 +44,14 @@ a {
 }
 .is-front-image:after {
 	position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;
-    background: rgba(3, 44, 53, 0.5);
-    /*background: rgba(203, 244, 253, 0.5);*/
-    background: rgba(21,22,24, 0.5);
-    background: rgba(16,20,23, 0.5);
+    background: rgba(16,20,23, 0.3);
     mix-blend-mode: multiply
 }
 .navbar {
-    background: rgb(21,22,24);
     background: rgba(16,20,23, 0.5);
 }
-.nav a, .title {
-	/* font-family: 'Raleway'; */
+.navbar a {
+	color: rgb(251,252,254);
 }
 .has-background-transparent {
     background: transparent;
@@ -77,7 +71,7 @@ a {
     left: 1rem;
 }
 .article-title a {
-    background-color: rgba(3, 44, 53, 0.6);
+    background: rgb(16,20,23, 0.7);
     color: rgb(231,232,234);
     font-size: 75%;
     line-height: 90%;
@@ -94,12 +88,11 @@ a {
     cursor: pointer;
     padding: 0.8rem;
 }
-.logo-1 {font-size: 1.2rem}
-.logo-2 {font-size:0.6rem}
-.logo-3 {font-size:0.6rem}
-.logo-4 {font-size:0.6rem}
-.logo-5 {font-size:0.6rem}
-.logo-6 {font-size:0.6rem}
+.logo-1, .latest-posts-title {font-size: 1.6rem}
+.logo-2 {font-size:1rem; font-family: Arial, Helvetica, sans-serif; font-style: italic}
+.logo-3 {font-size:1.2rem; font-family: Arial, Helvetica, sans-serif; font-style: italic;}
+.logo-4 {font-size:1.2 rem; font-family: Arial, Helvetica, sans-serif; background: rgb(51,52,54);display: inline;}
+.logo-5 {font-size:1rem; font-family: Arial, Helvetica, sans-serif}
 
 .latest-posts {
     padding: 0.8rem;
