@@ -42,7 +42,8 @@ h1 {
     background: transparent;
 }
 .article {
-    padding: 2vw;
+    padding: 1.6vw;
+    margin-bottom: 3vw;
     background: rgb(251,252,254);
     border: 1px solid rgb(231,232,234);
 }
@@ -65,7 +66,8 @@ h1 {
     color: rgb(251,252,254)
 }
 .sidebar {
-    color: rgb(231,232,234)
+    color: rgb(231,232,234);
+    position: relative;
 }
 
 .logo-1 {font-size: 1.2rem}
@@ -74,3 +76,8 @@ h1 {
 .logo-4 {font-size:0.6rem}
 .logo-5 {font-size:0.6rem}
 .logo-6 {font-size:0.6rem}
+
+.latest-posts a {
+    background-color: rgba(3, 44, 53, 0.6);
+    color: rgb(231,232,234);
+}

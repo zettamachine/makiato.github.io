@@ -39,6 +39,11 @@
                                 <p class="logo-5">noun: zettabyte; plural noun: zettabytes; noun: ZB; plural noun: ZBs</p>
                                 <p class="logo-6">a unit of information equal to one sextillion (1021) or, strictly, 270 bytes.</p>
                             </div> 
+                            <div class="latest-posts">
+                                {% for post in site.posts limit:3 %}
+                                    <p><a class="content" href="{{ post.url}}">{{ post.title}}</a></p>
+                                {% endfor %}
+                            </div>
                         </div>
                     </div>
                     <div class="column is-6">
