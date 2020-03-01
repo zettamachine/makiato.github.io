@@ -10,3 +10,16 @@ window.onscroll= function(e) {
         document.querySelector('.navbar').style.backgroundColor = 'rgba(16,20,23, 0.5)';
     }
 }
+
+//burger
+document.querySelector('.navbar-burger').addEventListener('click',function() {
+    this.classList.toggle('is-active');
+    document.getElementById('zetta-burger').classList.toggle('is-active');
+    document.getElementById('zetta-burger').style.backgroundColor = 'rgb(16,20,23)';
+});
+
+document.getElementById('zetta-burger').addEventListener('onmouseout',function() {
+    console.log('mouseout');
+    this.classList.toggle('is-active');
+    document.getElementById('zetta-burger').classList.toggle('is-active');
+});

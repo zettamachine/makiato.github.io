@@ -6,11 +6,12 @@ body {
 	font-family: 'Roboto Slab';
     background: rgb(16,20,23);
 }
-h1 {
-    font-size: 5vw;
-}
 a {
     color: rgb(21,22,24);
+}
+.title {
+    font-family: Raleway;
+    font-size: 1.2rem;
 }
 .section {
     background: transparent;
@@ -51,7 +52,18 @@ a {
     background: rgba(16,20,23, 0.5);
 }
 .navbar a {
-	color: rgb(251,252,254);
+	color: rgb(231,232,234);
+}
+.navbar a:hover {
+    color: rgb(251,252,254);
+}
+.navbar-end.title {
+    font-size: 1.6rem;
+}
+.navbar-item {
+    padding: 0;
+    line-height: 1;
+    font-weight: normal;
 }
 .has-background-transparent {
     background: transparent;
@@ -64,6 +76,7 @@ a {
 }
 .article-header {
     position: relative;
+    margin-bottom: 1rem;
 }
 .article-title {
     position: absolute;
@@ -78,7 +91,7 @@ a {
 }
 .article-title a:hover {
     background-color: rgb(51,52,54);
-    color: rgb(251,252,254)
+    color: rgb(251,252,254);
 }
 .sidebar {
     color: rgb(231,232,234);
@@ -98,7 +111,8 @@ a {
     padding: 0.8rem;
 }
 .latest-posts a {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+    color: rgb(231,232,234);
 }
 
 .image.is-4by3 {
