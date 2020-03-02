@@ -5,8 +5,6 @@ categories: [enterprise architecture]
 tags: [digital transformation, digital thinking, enterprise architecture]
 headshot: /images/blog/digital-enterprise-arch.jpg
 ---
-![5 Digital Enterprise Architecture strategies to establish your company’s competitive edge]({{ page.headshot }})
-
 Some time ago, I wrote an article about [what is Digital Architecture](https://www.linkedin.com/pulse/what-digital-architecture-anyway-mehmet-akyuz/). As a continuation of that article, also as apparently I am not very creative in finding new topics, I would like to focus on Digital Enterprise Architecture this time.
 
 A Digital Enterprise Architecture is crucial, especially for large-size enterprises to stay nimble amid increasing competition. It is no secret that Amazon, or some other digital organisation, [but most likely Amazon](https://www.businessinsider.com/amazon-is-killing-these-7-companies-2017-7//?r=AU&IR=T), is sooner or later will attempt taking over your industry.
