@@ -86,6 +86,10 @@ a {
 }
 .article-title a:hover {
 }
+.article-body a {
+    color: rgb(231,232,234);
+    background-color: rgb(81,82,84);
+}
 .sidebar {
     color: rgb(231,232,234);
     position: relative;
