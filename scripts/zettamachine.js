@@ -1,6 +1,8 @@
 //contact 
-var user = 'hello', domain = 'zettamachine.com';
-document.getElementById('email').innerHTML = '<i class="fa fa-envelope"></i> <a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+if(!!document.getElementById('email')) {
+    var user = 'hello', domain = 'zettamachine.com';
+    document.getElementById('email').innerHTML = '<i class="fa fa-envelope"></i> <a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+}
 
 //nav background
 window.onscroll= function(e) {
