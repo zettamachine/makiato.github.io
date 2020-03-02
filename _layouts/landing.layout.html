@@ -37,11 +37,13 @@
                             <div class="card">
                                 <div class="card-image">
                                     <figure class="image is-4by3 is-front-image">
-                                        <img src="{{ post.headshot }}" ci-src="{{ post.headshot }}" ci-params="gray=1" alt="{{ post.title }}">
+                                        <a href="{{ post.url }}">
+                                            <img src="{{ post.headshot }}" ci-src="{{ post.headshot }}" ci-params="gray=1" alt="{{ post.title }}">
+                                        </a>
                                     </figure>
                                 </div>
                                 <div class="card-content">
-                                    <p class="title">{{ post.title }}</p>
+                                    <a href="{{ post.url }}" class="title">{{ post.title }}</a>
                                     <p class="content">
                                         {{ post.excerpt | strip_html | truncatewords: 20 }}
                                     </p>
