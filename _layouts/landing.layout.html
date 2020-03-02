@@ -36,14 +36,14 @@
                         <div class="column is-one-quarter">
                             <div class="card">
                                 <div class="card-image">
-                                    <figure class="image is-4by3 is-front-image">
-                                        <a href="{{ post.url }}">
-                                            <img src="{{ post.headshot }}" ci-src="{{ post.headshot }}" ci-params="gray=1" alt="{{ post.title }}">
-                                        </a>
-                                    </figure>
+                                    <a href="{{ post.url }}">
+                                        <figure class="image is-4by3 is-front-image">
+                                                <img src="{{ post.headshot }}" ci-src="{{ post.headshot }}" ci-params="gray=1" alt="{{ post.title }}">
+                                        </figure>
+                                    </a>
                                 </div>
                                 <div class="card-content">
-                                    <a href="{{ post.url }}" class="title">{{ post.title }}</a>
+                                    <h2><a href="{{ post.url }}" class="title">{{ post.title }}</a><h2>
                                     <p class="content">
                                         {{ post.excerpt | strip_html | truncatewords: 20 }}
                                     </p>

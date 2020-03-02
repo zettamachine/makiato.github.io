@@ -9,6 +9,16 @@ body {
 a {
     color: rgb(21,22,24);
 }
+h1, h2, h3 {
+   font-family: Raleway;
+   padding-bottom: 1rem; 
+}
+h1 {
+    font-size: 1.6rem;
+}
+h2 {
+    font-size: 1.4rem;
+}
 .title {
     font-family: Raleway;
     font-size: 1.2rem;
@@ -84,11 +94,27 @@ a {
 .article-title a {
     font-size: 1.6rem;
 }
-.article-title a:hover {
+.article-body a:hover {
+      background-image: linear-gradient(
+        transparent 0%,
+        transparent calc(50% - 9px),
+        rgba(81, 82, 84, 0.35) calc(50% - 9px),
+        rgba(81, 82, 84, 0.35) 100%
+    );
+    background-position: 0 100%;
 }
 .article-body a {
-    color: rgb(231,232,234);
-    background-color: rgb(81,82,84);
+    color: #111;
+    padding: 2px 0 1px 0;
+    text-decoration: none;
+    background-image: linear-gradient( transparent 0%, transparent calc(50% - 9px), rgba(81, 82, 84, 0.35) calc(50% - 9px), rgba(81, 82, 84, 0.35) 100% );
+    transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
+    background-size: 100% 200%;
+    background-position: 0 0;
+    word-break: break-word;
+}
+.article-body p {
+    padding-bottom: 1rem;
 }
 .sidebar {
     color: rgb(231,232,234);
