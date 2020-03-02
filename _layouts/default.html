@@ -1,65 +1,82 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	{% seo %}
+
+	<!--link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}"-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+	<link rel="stylesheet" href="{{ "/styles/zettamachine.css?v=" | append: site.github.build_revision | relative_url }}">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Raleway" rel="stylesheet">
     <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"> </script> 
     <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+    {% include tag.start.html %}
+</head>
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+<body>
+    {% include tag.end.html %}
+	<div class="wrapper" ci-bg-url="/images/david.wrapper.jpg">
 
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
+        <!-- Navigation bar-->
+        {% include nav.html %}}
 
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
+        <!-- The vertical gap between the navigation and the cards section -->
+		<section class="section vertical-gap"></section>
 
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
-      </header>
-      <section>
+		<section class="section">
+			<div class="container is-fluid">
+				<div class="columns">
+                    <div class="column is-one-quarter"></div>
+                    {% for post in site.posts limit:3 %}
+                        <div class="column is-one-quarter">
+                            <div class="card">
+                                <div class="card-image">
+                                    <a href="{{ post.url }}">
+                                        <figure class="image is-4by3 is-front-image">
+                                                <img src="{{ post.headshot }}" ci-src="{{ post.headshot }}" ci-params="gray=1" alt="{{ post.title }}">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h2><a href="{{ post.url }}" class="title">{{ post.title }}</a><h2>
+                                    <p class="content">
+                                        {{ post.excerpt | strip_html | truncatewords: 20 }}
+                                    </p>
+                                    <p><a class="content" href="{{ post.url}}"> Read more</a></p>
+                                </div>
+                            </div>
+					    </div>
+                    {% endfor %}
+				</div>
+			</div>
+		</section>
+		<section class="section has-background-light">
+			<div class="container is-fluid">
+				<div class="columns">
+					<div class="column is-half">
+						<a id="zetta-about"></a>
+						<p class="title">Hi there!</p>
+                        {% include about.html %}
+					</div>
+					<div class="column is-half">
+						<a id="zetta-contact"></a>
+						<p class="title">Send me a message</p>
+						{% include contact-email.html %}
+					</div>
+				</div>
+			</div>
+		</section>
 
-      {{ content }}
+        {% include footer.html %}
 
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
-  </body>
+	</div>
+    <script src="{{ "/scripts/zettamachine.js?v=" | append: site.github.build_revision | relative_url }}"> </script> 
+	
+    {% include plugin-scripts.html %}
+</body>
 </html>
