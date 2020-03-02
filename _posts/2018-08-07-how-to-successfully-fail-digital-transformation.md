@@ -7,9 +7,12 @@ headshot: /images/blog/successfully-fail.jpg
 ---
 It is nearly impossible not coming across an article or a post about digital transformation on any given day. I can at least guarantee you have seen one today.
 
+
 Considering the profundity of digital, the abundance of content on digital transformation must be expected. I think all industries, governments and even the society are still in the process of comprehending what digital truly means. Everyone who has seen that [mm-hmm moment](https://youtu.be/USXoINPEhoA?t=1m48s) would have definitely developed second thoughts about the opportunities as well as the threads that come with digital. To me, it is somewhat akin to [discovering plastics](https://www.bbc.com/news/business-42646025); the scientific wonder of the early 1900s, now an environmental curse. It is for that reason now we are talking about everything digital; digital economy, digital culture, digital government, [digital thinking](https://insights.zettamachine.com/2016/05/03/digital-thinking) and so on.
 
+
 <!--more-->
+
 
 As with every new technology evolution, there is also an abundance of content on how some large organisations [tried digital transformation and failed spectacularly](https://hbr.org/2018/03/why-so-many-high-profile-digital-transformations-fail). Some even take the bar higher by predicting that [90% of digital transformation projects will fail](http://www.digitaljournal.com/tech-and-science/technology/9-out-of-10-digital-transformation-projects-will-fail/article/499314). McKinsey also draws the attention to [digital strategies organisations have today](https://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/why-digital-strategies-fail) and signals that they are likely to fail if they don&#8217;t fully understand the digital economy and its demands.
 
