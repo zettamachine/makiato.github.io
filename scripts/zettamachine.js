@@ -18,7 +18,7 @@ document.querySelector('.navbar-burger').addEventListener('click',function() {
     document.getElementById('zetta-burger').style.backgroundColor = 'rgb(16,20,23)';
 });
 
-document.getElementById('zetta-burger').addEventListener('onmouseout',function() {
+document.querySelector('.navbar-menu').addEventListener('mouseout',function() {
     console.log('mouseout');
     this.classList.toggle('is-active');
     document.getElementById('zetta-burger').classList.toggle('is-active');

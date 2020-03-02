@@ -4,9 +4,9 @@ layout: blog.layout
 
     {% for post in site.posts %}
         <div class="article">
-			<div class="article-header is-4by3">
-				<img ci-src="{{ post.headshot }}" ci-ratio="1.5" ci-fill="100%" ci-params="gray=0" alt="{{ post.title }}"/>
-                <p class="title article-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
+			<div class="article-header">
+                <h1 class="title article-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+				<img ci-src="{{ post.headshot }}" ci-ratio="1.5" ci-params="gray=1" alt="{{ post.title }}"/>
 			</div>
 			<div class="article-body">
 				<p class="content">
