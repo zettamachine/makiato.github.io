@@ -48,7 +48,7 @@ h2 {
     background: transparent;
 }
 .vertical-gap {
-	height: 65vh;
+	height: 50vh;
 }
 .is-front-image {
 	position: relative;
@@ -60,6 +60,13 @@ h2 {
 }
 .navbar {
     background: rgba(16,20,23, 0.5);
+}
+.navbar-brand {
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 200px;
+    background-blend-mode: screen;
+	width: 300px;
 }
 .navbar a {
 	color: rgb(231,232,234);
