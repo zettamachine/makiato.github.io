@@ -20,8 +20,11 @@ h2 {
     font-size: 1.4rem;
 }
 .title {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 1.2rem;
+}
+.content {
+    font-family: 'Roboto Slab';
 }
 .section {
     background: transparent;
@@ -66,6 +69,7 @@ h2 {
     background-position: center left;
     background-size: 200px;
     background-blend-mode: screen;
+    cursor: pointer;
 	width: 300px;
 }
 .navbar a {
