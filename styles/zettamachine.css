@@ -23,8 +23,9 @@ h2 {
     font-family: 'Raleway';
     font-size: 1.2rem;
 }
-.content {
+.card-content .content {
     font-family: 'Roboto Slab';
+    font-size: 1rem;
 }
 .section {
     background: transparent;
@@ -68,7 +69,7 @@ h2 {
     background-repeat: no-repeat;
     background-position: center left;
     background-size: 200px;
-    background-blend-mode: screen;
+    opacity: 0.35;
     cursor: pointer;
 	width: 300px;
 }
