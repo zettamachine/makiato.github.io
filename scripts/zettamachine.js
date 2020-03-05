@@ -8,6 +8,7 @@ if(!!document.getElementById('email')) {
 window.onscroll= function(e) {
     if(window.scrollY > 0) {
         document.querySelector('.navbar').style.backgroundColor = 'rgb(16,20,23)';
+        document.querySelector('.navbar').innerHTML = 'jalin <3';
     } else {
         document.querySelector('.navbar').style.backgroundColor = 'rgba(16,20,23, 0.5)';
     }
