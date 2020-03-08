@@ -3,7 +3,7 @@ layout: post
 title: 5 Digital Enterprise Architecture strategies to establish your company’s competitive edge
 categories: [enterprise architecture]
 tags: [digital transformation, digital thinking, enterprise architecture]
-headshot: /images/blog/digital-enterprise-arch.jpg
+headshot: /images/blog/digital.enterprise.architecture.jpg
 ---
 Some time ago, I wrote an article about [what is Digital Architecture](https://www.linkedin.com/pulse/what-digital-architecture-anyway-mehmet-akyuz/). As a continuation of that article, also as apparently I am not very creative in finding new topics, I would like to focus on Digital Enterprise Architecture this time.
 
@@ -54,3 +54,7 @@ EA teams should re-think and re-design their services with the focus on their cu
 EA should also explore the opportunities to utilise technology to deliver better experiences. An example would be an AI engine running on the architecture repositories allowing users to intuitively query the architecture. Another example would be using big data and machine learning to maintain a current picture of the enterprise systems and the interactions between them.
 
 Acting faster, bolder and smarter at the same time is an imperative for today&#8217;s businesses and it is exponentially harder for traditional organisations. Enterprise Architecture can have a role in achieving one or all of these goals. A Digital EA does not only focus on being smart and be the brakes when necessary; it is also the engine driving the change and helping the organisation take bolder steps.
+
+---
+
+Photo by **Aleksandar Pasaric** from **[Pexels](https://www.pexels.com/photo/architecture-buildings-business-city-32518/*)**
