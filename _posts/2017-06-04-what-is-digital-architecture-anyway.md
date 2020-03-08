@@ -46,7 +46,7 @@ Associated with customer experience, this is perhaps the most critical, distingu
 
 This may be again considered a common virtue for architects but as [digital is considered closely with adoption of new technologies,](https://insights.zettamachine.com/2015/08/30/the-return-of-the-digital/) being hands-on is a differentiating factor for Digital Architects. Digital Architects should be able and willing to play with the technologies they may incorporate into their solutions. Ideally, they should also participate in hackathons, lead spikes and proof of concept activities and implement frameworks. This way they can develop a solid command on the technologies and assess their strengths and weaknesses consciously. They can also better understand the dependencies and what would be required to employ the technology at the enterprise scale.
 
-:joy:
+---
 
 Needless to say, there are more than these characteristics to digital architecture. I highlighted the ones which I feel essential for delivering digital solutions. Going back to my initial question, do you think there is such thing as Digital Architecture? of What is Digital Architecture for you?
 

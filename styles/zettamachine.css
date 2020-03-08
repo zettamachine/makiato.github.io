@@ -146,6 +146,10 @@ h2 {
 .image.is-4by3 {
     padding-top: 0;
 }
+.footer-social {
+    align-self: flex-start;
+    white-space:nowrap;
+}
 /*
 .ci-image-wrapper {
     position: relative;
