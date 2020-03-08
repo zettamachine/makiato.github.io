@@ -10,6 +10,8 @@ Digital is big. It is not only big in the size of the hype it created but also b
 
 It is obvious that technology is a significant component to digital transformation but one should not make the mistake of deeming it as the most essential ingredient. In fact, in some business domains a successful digital transformation could be achieved through existing, legacy technologies by just re-thinking, re-focusing and re-visiting the customer experience. That points us to the must have ingredient of digital transformation: an obsession for providing the best customer experience. Surely, customer experience has a number of aspects. It is not just about creating beautiful mobile apps. In fact, a good customer experience should exist without any technology around. It must be ubiquitous, consistent and continuous.
 
+<!--more-->
+
 Digital presents an opportunity to organisations to re-visit and digitise their businesses in the light of new trends and technologies. It is up to organisations to take this opportunity as a chance to create something better or something awesome. Are you just trying to automate your existing processes? Or just re-creating the same experience on different screens?
 
 If you are truly set out for creating the awesome, the basic and lasting question for you to answer is: "what is the awesome experience?" How can you create the differentiating experience hitting the bullseye - not what you preconceived as the best - for your customers?
