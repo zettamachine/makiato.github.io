@@ -148,7 +148,19 @@ h2 {
 }
 .footer-social {
     align-self: flex-start;
-    white-space:nowrap;
+    white-space: nowrap;
+}
+.rotate90 {
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+}
+.more-articles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.more-articles a {
+	color: rgb(231,232,234);
 }
 /*
 .ci-image-wrapper {
