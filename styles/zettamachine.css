@@ -151,13 +151,13 @@ h2 {
     white-space: nowrap;
 }
 .rotate90 {
-    transform: rotate(90deg);
     white-space: nowrap;
+    writing-mode: vertical-rl;
 }
 .more-articles {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: flex-end;
 }
 .more-articles a {
 	color: rgb(231,232,234);
