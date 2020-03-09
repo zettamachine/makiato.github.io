@@ -31,9 +31,9 @@
 		<section class="section">
 			<div class="container is-fluid">
 				<div class="columns">
-                    <div class="column is-one-quarter"></div>
+                    <div class="column is-2"></div>
                     {% for post in site.posts limit:3 %}
-                        <div class="column is-one-quarter">
+                        <div class="column is-3">
                             <div class="card">
                                 <div class="card-image">
                                     <a href="{{ post.url }}">
@@ -52,6 +52,18 @@
                             </div>
 					    </div>
                     {% endfor %}
+                    <div class="column is-1">
+                        <div class="is-hidden-mobile more-articles">
+                            <div><a href="/blog">
+                                <i class="fas fa-arrow-right"></i>
+                            </a></div>
+                            <div><div class="rotate90">
+                                <a href="/blog">
+                                    See more articles.
+                                </a>
+                            </div></div>
+                        </div>
+                    </div>
 				</div>
 			</div>
 		</section>
