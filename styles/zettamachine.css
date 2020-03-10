@@ -72,12 +72,9 @@ h2 {
     color: rgb(251,252,254);
 }
 .navbar-end.title {
-    font-size: 1.6rem;
+    
 }
 .navbar-item {
-    padding: 0.5rem;
-    line-height: 1;
-    font-weight: normal;
 }
 .has-background-transparent {
     background: transparent;
