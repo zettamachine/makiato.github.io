@@ -7,7 +7,7 @@ author: Mehmet Akyuz
 #Navigation Variables
 url: 'https://zettamachine.com'
 permalink: /:year/:month/:day/:title:output_ext
-paginate: 4
+paginate: 3
 
 #Tags
 disqus: zettamachine
