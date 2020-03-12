@@ -1,88 +1,90 @@
-<form id="zetta-contact-form" class="has-small-padding">
+<div class="notification is-hidden" id="zetta-contact-status">
+    <button class="delete" id="zetta-contact-status-close"></button>
+    <p id="zetta-contact-status-message"></p>
+</div>
+<form id="zetta-contact-form" class="has-small-padding" method="post" action="https://formspree.io/mwkqkonv">
 	<div class="field">
 	    <label class="label">Name</label>
         <div class="control has-icons-left">
-			<input class="input" id="zetta-contact-name" type="name" placeholder="Name">
+			<input class="input" name="name" id="full-name" type="text" placeholder="Name" required="yes">
 			<span class="icon is-small is-left"><i class="fa fa-user"></i></span>
 		</div>
 	</div>
 	<div class="field">
 		<label class="label">Email</label>
 		<div class="control has-icons-left">
-			<input class="input" id="zetta-contact-replyto" type="_replyto" placeholder="Email">
+			<input class="input" name="_replyto" id="email-address" type="text" placeholder="Email" required="yes">
 			<span class="icon is-small is-left"><i class="fa fa-envelope"></i></span>
 		</div>
 	</div>
-							<div class="field">
-								<label class="label">How can I help?</label>
-								<div class="control">
-									<textarea class="textarea" id="zetta-contact-message" name="message" placeholder="e.g. Hello zettamachine"></textarea>
-								</div>
-							</div>
-							<div class="control is-gray">
-								<button class="button is-link has-background-dark">Submit</button>
-							</div>
-						</form>
-
-
-<form id="my-form"
-  action="https://formspree.io/hello@zettamachine.com"
-  method="POST"
->
-  <label>Email:</label>
-  <input type="email" name="email" />
-  <label>Message:</label>
-  <input type="text" name="message" />
-  <button id="my-form-button">Submit</button>
-  <p id="my-form-status"></p>
+	<div class="field">
+	    <label class="label">How can I help?</label>
+		<div class="control">
+			<textarea class="textarea" id="message" name="message" placeholder="e.g. Hello zettamachine"></textarea>
+		</div>
+	</div>
+	<div class="control is-gray">
+	    <button id="zetta-contact-button" class="button is-link has-background-dark">Send</button>
+	</div>
 </form>
 
 <!-- Place this script at the end of the body tag -->
 
 <script>
-  window.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("DOMContentLoaded", function() {
 
     // get the form elements defined in your form HTML above
-    
-    var form = document.getElementById("my-form");
-    var button = document.getElementById("my-form-button");
-    var status = document.getElementById("my-form-status");
+    var form = document.getElementById("zetta-contact-form");
+    var button = document.getElementById("zetta-contact-button");
+    var status = document.getElementById("zetta-contact-status");
+    var message = document.getElementById("zetta-contact-status-message");
+    var close = document.getElementById("zetta-contact-status-close");
 
     // Success and Error functions for after the form is submitted
-    
     function success() {
-      form.reset();
-      button.style = "display: none ";
-      status.innerHTML = "Thanks!";
+        form.reset();
+        form.classList.add('is-hidden');
+        status.classList.remove('is-hidden');
+        status.classList.remove('is-danger');
+        status.classList.add('is-primary');
+        message.innerHTML = "Thank you for your message.";
     }
 
-    function error() {
-      status.innerHTML = "Oops! There was a problem.";
+    function error(s, r, rt) {
+        form.reset();
+        status.classList.remove('is-hidden');
+        status.classList.remove('is-primary');
+        status.classList.add('is-danger');
+        message.innerHTML = "There is a problem submitting the form: " + r;
     }
 
     // handle the form submission event
-
-    form.addEventListener("submit", function(ev) {
-      ev.preventDefault();
-      var data = new FormData(form);
-      ajax(form.method, form.action, data, success, error);
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+        var data = new FormData(form);
+        ajax(form.method, form.action, data, success, error);
     });
-  });
+
+    close.addEventListener("click", function() {
+        event.preventDefault();
+        status.classList.add('is-hidden');
+    });
+});
   
   // helper function for sending an AJAX request
-
-  function ajax(method, url, data, success, error) {
+function ajax(method, url, data, success, error) {
     var xhr = new XMLHttpRequest();
     xhr.open(method, url);
     xhr.setRequestHeader("Accept", "application/json");
     xhr.onreadystatechange = function() {
-      if (xhr.readyState !== XMLHttpRequest.DONE) return;
-      if (xhr.status === 200) {
-        success(xhr.response, xhr.responseType);
-      } else {
-        error(xhr.status, xhr.response, xhr.responseType);
-      }
+    if (xhr.readyState !== XMLHttpRequest.DONE) return;
+        if (xhr.status === 200) {
+            success(xhr.response, xhr.responseType);
+        } else {
+            error(xhr.status, xhr.response, xhr.responseType);
+        }
     };
+    console.log('sending data > ' + data);
     xhr.send(data);
-  }
+}
 </script>

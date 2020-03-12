@@ -3,7 +3,7 @@ layout: post
 title: The Superpowers of a Technology Architect
 categories: [enterprise architecture]
 tags: [digital transformation, digital thinking, enterprise architecture]
-headshot: /images/blog/superpowers.jpg
+headshot: /images/blog/luigi.jpg
 ---
 Every profession requires special skills which make an individual best or mediocre in that field. If you are a [superhero](https://en.wikipedia.org/wiki/List_of_superhuman_features_and_abilities_in_fiction), flying without engines, seeing behind the walls or firing laser beams off your eyes would certainly make you a favourite amongst the others.
 
