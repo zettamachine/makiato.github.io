@@ -6,6 +6,7 @@ if(!!document.getElementById('email')) {
 
 //nav background
 window.onscroll= function(e) {
+    e.preventDefault();
     if(window.scrollY > 0) {
         document.querySelector('.navbar').style.backgroundColor = 'rgb(16,20,23)';
     } else {
@@ -14,13 +15,15 @@ window.onscroll= function(e) {
 }
 
 //burger
-document.querySelector('.navbar-burger').addEventListener('click',function() {
+document.querySelector('.navbar-burger').addEventListener('click',function(e) {
+    e.preventDefault();
     this.classList.toggle('is-active');
     document.getElementById('zetta-burger').classList.toggle('is-active');
     document.getElementById('zetta-burger').style.backgroundColor = 'rgb(16,20,23)';
 });
 
-document.getElementById('zetta-burger').addEventListener('mouseleave',function() {
+document.getElementById('zetta-burger').addEventListener('mouseleave',function(e) {
+    e.preventDefault();
     document.querySelector('.navbar-burger').classList.toggle('is-active');
     document.getElementById('zetta-burger').classList.toggle('is-active');
 });
