@@ -1,5 +1,5 @@
 # Theme variables
-theme: jekyll-theme-minimal
+theme: zettamachine-theme
 title: zettamachine - Digital Thinking, Digital Architecture
 description: Zettamachine is a blog on Enterprise Architecture, Digital Transformation and Design Thinking. 
 author: Mehmet Akyuz
@@ -8,9 +8,13 @@ author: Mehmet Akyuz
 url: 'https://zettamachine.com'
 permalink: /:year/:month/:day/:title:output_ext
 paginate: 3
+paginate_path: /blog/:num/
 
 #Tags
 disqus: zettamachine
 
 #Content
 excerpt_separator: <!--more-->
+
+#Plugins
+plugins: [jekyll-paginate]
