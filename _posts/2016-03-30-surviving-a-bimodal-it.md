@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Surviving a Bimodal IT
-author: Mehmet Akyiz
+author: Mehmet Akyuz
 categories: [enterprise architecture]
 tags: [digital transformation, digital thinking, enterprise architecture, design thinking]
 headshot: /images/blog/bimodal.it.jpg
