@@ -5,9 +5,6 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	{% seo %}
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
 	<link rel="stylesheet" href="{{ "/styles/zettamachine.css?v=" | append: site.github.build_revision | relative_url }}">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Raleway" rel="stylesheet">
@@ -16,6 +13,7 @@
     <![endif]-->
 
     {% include tag.start.html %}
+    {% seo %}
 </head>
 
 <body class="blog-body" ci-bg-url="/images/david.wrapper.jpg">
