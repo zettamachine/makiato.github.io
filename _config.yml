@@ -15,4 +15,3 @@ disqus: zettamachine
 excerpt_separator: <!--more-->
 
 #Plugins
-plugins: [jekyll-paginate]
