@@ -98,6 +98,7 @@ blockquote:before {
     
 }
 .navbar-item {
+    min-height: 45px;
 }
 .has-background-transparent {
     background: transparent;
@@ -180,6 +181,11 @@ blockquote:before {
 }
 .more-articles a {
 	color: rgb(231,232,234);
+}
+#logo {
+    width: 154px;
+    height: 45px;
+    max-height: 45px;
 }
 /*
 .ci-image-wrapper {
