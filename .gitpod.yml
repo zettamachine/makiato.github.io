@@ -1,0 +1,10 @@
+ports:
+  - port: 4000
+    onOpen: open-preview
+tasks:
+  - name: Initiation
+    command: > 
+      echo ">> Pulling the project"; 
+      git pull origin dev;
+      echo ">> Starting jekyll";
+      bundle exec jekyll serve --watch --incremental --trace
