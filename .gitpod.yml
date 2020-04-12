@@ -1,8 +1,5 @@
-ports:
-  - port: 4000
-    onOpen: open-preview
 tasks:
-  - name: Initiation
+  - name: Zettamachine
     command: > 
       echo ">> Pulling the project"; 
       git pull origin dev;
