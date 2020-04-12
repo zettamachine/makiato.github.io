@@ -24,6 +24,7 @@ document.querySelector('.navbar-burger').addEventListener('click',function(e) {
 
 document.getElementById('zetta-burger').addEventListener('mouseleave',function(e) {
     e.preventDefault();
+    console.log('mouse leave');
     document.querySelector('.navbar-burger').classList.toggle('is-active');
     document.getElementById('zetta-burger').classList.toggle('is-active');
 });

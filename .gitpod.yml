@@ -1,0 +1,7 @@
+tasks:
+  - name: Zettamachine
+    command: > 
+      echo ">> Pulling the project"; 
+      git pull origin dev;
+      echo ">> Starting jekyll";
+      bundle exec jekyll serve --watch --incremental --trace

@@ -100,6 +100,9 @@ blockquote:before {
 .navbar-item {
     min-height: 45px;
 }
+.navbar-menu a:hover {
+    color: rgb(21,22,24);
+}
 .has-background-transparent {
     background: transparent;
 }
