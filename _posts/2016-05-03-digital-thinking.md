@@ -58,7 +58,7 @@ Quickly prototyping the idea will allow you to test your solution early in the p
   Test
 </h2>
 
-Testing your idea â€“ using the prototypes you have created â€“ is obviously a great way to test your solution. Is your solution intuitive, has your test group got excited with the experience? For a digital solution, in the infant stages of the prototype it might be easier to test and collect the feedback. As the prototype gets sophisticated, digital teams should also find the ways to embed
+Testing your idea - using the prototypes you have created - is obviously a great way to test your solution. Is your solution intuitive, has your test group got excited with the experience? For a digital solution, in the infant stages of the prototype it might be easier to test and collect the feedback. As the prototype gets sophisticated, digital teams should also find the ways to embed
 
 There are a good number of articles and stories out on the internet regarding design thinking. If you are also interested in applying design thinking into your digital transformation, a fun way to start is could be just [watching this movie](http://designthinkingmovie.com/).
 
