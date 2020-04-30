@@ -6,7 +6,7 @@ categories:
 tags:
 - digital transformation
 - digital thinking
-headshot: ''
+headshot: "/images/blog/desirability.viability.feasibility.jpg"
 
 ---
 Doing the right thing
