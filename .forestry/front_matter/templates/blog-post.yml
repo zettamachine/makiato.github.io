@@ -5,15 +5,32 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: post
 - type: text
   name: title
   label: title
 - type: list
   name: categories
   label: categories
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - enterprise architecture
+    - " digital transformation"
+    - digital thinking
 - type: list
   name: tags
   label: tags
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - enterprise architecture
+    - digital transformation
+    - digital thinking
 - type: file
   name: headshot
   label: headshot
