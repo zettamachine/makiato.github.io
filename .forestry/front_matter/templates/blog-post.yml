@@ -34,3 +34,5 @@ fields:
 - type: file
   name: headshot
   label: headshot
+pages:
+- _posts/formula-for-creating-the-right-digital-service-dvf.md
