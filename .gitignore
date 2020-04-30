@@ -3,6 +3,5 @@ _site
 Gemfile.lock
 *.gem
 .jekyll-cache
-.forestry
 .theia
 .jekyll-metadata
