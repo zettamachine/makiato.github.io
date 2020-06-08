@@ -5,3 +5,4 @@ Gemfile.lock
 .jekyll-cache
 .theia
 .jekyll-metadata
+.vscode
