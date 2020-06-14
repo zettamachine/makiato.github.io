@@ -144,6 +144,10 @@ blockquote:before {
 .article-body p {
     padding-bottom: 1rem;
 }
+.article-body ul {
+    list-style-type: disc;
+    list-style-position: outside;
+}
 .sidebar {
     color: rgb(231,232,234);
     position: relative;
