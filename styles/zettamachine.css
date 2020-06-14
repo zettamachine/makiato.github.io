@@ -75,6 +75,9 @@ html {
 .article-body p {
     padding-bottom: 1rem;
 }
+.article-body table {
+    border: solid thin;
+}
 .article-body ul {
     list-style-type: disc;
     list-style-position: inside;
