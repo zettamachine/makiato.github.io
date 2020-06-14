@@ -1,11 +1,25 @@
-*
-.ci-image-wrapper {
-    position: relative;
-    top: 0;
+html {
+	background: transparent;
+    font-size: 16px;
+}
+body {
+	font-family: 'Roboto Slab';
+    background: rgb(16,20,23);
 }
 a {
     color: rgb(21,22,24);
 }
+h1, h2, h3 {
+   font-family: Raleway;
+   padding-bottom: 1rem; 
+}
+h1 {
+    font-size: 1.6rem;
+}
+h2 {
+    font-size: 1.4rem;
+}
+
 blockquote {
     display: block;
     border-top: 1px solid rgb(101,102,104);
@@ -16,7 +30,7 @@ blockquote {
     font-style: italic;
 }
 blockquote:before {
-    content: \'\\201C\';
+    content: '\201C';
     position: absolute;
     top: 0em;
     left: 50%;
@@ -28,70 +42,25 @@ blockquote:before {
     color: rgb(21,22,24);
     text-align: center;
 }
-body {
-	font-family: \'Roboto Slab\';
-    background: rgb(16,20,23);
+.title {
+    font-family: 'Raleway';
+    font-size: 1.2rem;
 }
-h1 {
-    font-size: 1.6rem;
+.card-content .content {
+    font-family: 'Roboto Slab';
+    font-size: 1rem;
 }
-h1, h2, h3 {
-   font-family: Raleway;
-   padding-bottom: 1rem; 
+.section {
+    background: transparent;
 }
-h2 {
-    font-size: 1.4rem;
-}
-
-html {
-	background: transparent;
-    font-size: 16px;
-}
-/.article {
-    padding: 1rem;
-    margin-bottom: 1rem;
-    background: rgb(251,252,254);
-    border: 1px solid rgb(231,232,234);
-}
-.article-body a {
-    color: #111;
-    padding: 2px 0 1px 0;
-    text-decoration: none;
-    background-image: linear-gradient( transparent 0%, transparent calc(50% - 9px), rgba(81, 82, 84, 0.35) calc(50% - 9px), rgba(81, 82, 84, 0.35) 100% );
-    transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
-    background-size: 100% 200%;
-    background-position: 0 0;
-    word-break: break-word;
-}
-.article-body a:hover {
-      background-image: linear-gradient(
-        transparent 0%,
-        transparent calc(50% - 9px),
-        rgba(81, 82, 84, 0.35) calc(50% - 9px),
-        rgba(81, 82, 84, 0.35) 100%
-    );
-    background-position: 0 100%;
-}
-.article-body p {
-    padding-bottom: 1rem;
-}
-.article-body table {
-    border: solid thin;
-}
-.article-body ul {
-    list-style-type: disc;
-    list-style-position: inside;
-    margin: 1rem auto;
-}
-.article-header {
-    margin-bottom: 1rem;
-}
-.article-title a {
-    font-size: 2rem;
-}
-.article-title {
-    top: 1rem;
-    left: 1rem;
+.wrapper {
+	background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+	height: auto;
+	max-height: 100vh;
 }
 .blog-body {
     background-color: transparent;
@@ -105,58 +74,25 @@ html {
 .blog-wrapper {
     background: transparent;
 }
-.card-content .content {
-    font-family: \'Roboto Slab\';
-    font-size: 1rem;
-}
-.footer-social {
-    white-space: nowrap;
-}
-.has-background-transparent {
-    background: transparent;
-}
-.image.is-4by3 {
-    padding-top: 0;
+.vertical-gap {
+	height: 50vh;
 }
 .is-front-image {
 	position: relative;
 }
 .is-front-image:after {
-	position: absolute; content: \'\'; display: block; top: 0; left: 0; height: 100%; width: 100%;
+	position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;
     background: rgba(16,20,23, 0.3);
     mix-blend-mode: multiply
 }
-.latest-posts a {
-    font-size: 1.2rem;
-    color: rgb(231,232,234);
-}
-
-.latest-posts {
-    padding: 0.8rem;
-    display: none;
-}
-.logo-1, .latest-posts-title {font-size: 1.6rem}
-.logo-2 {font-size:1rem; font-family: Arial, Helvetica, sans-serif; font-style: italic}
-.logo-3 {font-size:1.2rem; font-family: Arial, Helvetica, sans-serif; font-style: italic;}
-.logo-4 {font-size:1.2 rem; font-family: Arial, Helvetica, sans-serif; background: rgb(81,82,84);display: inline;}
-.logo-5 {font-size:1rem; font-family: Arial, Helvetica, sans-serif}
-
-.more-articles a {
-	color: rgb(231,232,234);
-}
-.more-articles {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.navbar {
+    background: rgba(16,20,23, 0.5);
 }
 .navbar a {
 	color: rgb(231,232,234);
 }
 .navbar a:hover {
     color: rgb(251,252,254);
-}
-.navbar {
-    background: rgba(16,20,23, 0.5);
 }
 .navbar-end.title {
     
@@ -167,12 +103,46 @@ html {
 .navbar-menu a:hover {
     color: rgb(21,22,24);
 }
-.rotate90 {
-    white-space: nowrap;
-    writing-mode: vertical-rl;
-}
-.section {
+.has-background-transparent {
     background: transparent;
+}
+.article {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: rgb(251,252,254);
+    border: 1px solid rgb(231,232,234);
+}
+.article-header {
+    margin-bottom: 1rem;
+}
+.article-title {
+    top: 1rem;
+    left: 1rem;
+}
+.article-title a {
+    font-size: 2rem;
+}
+.article-body a:hover {
+      background-image: linear-gradient(
+        transparent 0%,
+        transparent calc(50% - 9px),
+        rgba(81, 82, 84, 0.35) calc(50% - 9px),
+        rgba(81, 82, 84, 0.35) 100%
+    );
+    background-position: 0 100%;
+}
+.article-body a {
+    color: #111;
+    padding: 2px 0 1px 0;
+    text-decoration: none;
+    background-image: linear-gradient( transparent 0%, transparent calc(50% - 9px), rgba(81, 82, 84, 0.35) calc(50% - 9px), rgba(81, 82, 84, 0.35) 100% );
+    transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
+    background-size: 100% 200%;
+    background-position: 0 0;
+    word-break: break-word;
+}
+.article-body p {
+    padding-bottom: 1rem;
 }
 .sidebar {
     color: rgb(231,232,234);
@@ -182,24 +152,48 @@ html {
     cursor: pointer;
     padding: 0.8rem;
 }
-.title {
-    font-family: \'Raleway\';
+.logo-1, .latest-posts-title {font-size: 1.6rem}
+.logo-2 {font-size:1rem; font-family: Arial, Helvetica, sans-serif; font-style: italic}
+.logo-3 {font-size:1.2rem; font-family: Arial, Helvetica, sans-serif; font-style: italic;}
+.logo-4 {font-size:1.2 rem; font-family: Arial, Helvetica, sans-serif; background: rgb(81,82,84);display: inline;}
+.logo-5 {font-size:1rem; font-family: Arial, Helvetica, sans-serif}
+
+.latest-posts {
+    padding: 0.8rem;
+    display: none;
+}
+.latest-posts a {
     font-size: 1.2rem;
+    color: rgb(231,232,234);
 }
-.vertical-gap {
-	height: 50vh;
+
+.image.is-4by3 {
+    padding-top: 0;
 }
-.wrapper {
-	background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-	height: auto;
-	max-height: 100vh;
+.footer-social {
+    white-space: nowrap;
+}
+.rotate90 {
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+}
+.more-articles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.more-articles a {
+	color: rgb(231,232,234);
 }
 #logo {
     width: 154px;
     height: 45px;
     max-height: 45px;
 }
+/*
+.ci-image-wrapper {
+    position: relative;
+    top: 0;
+}
+*/
+/* deployment test mak100 */
