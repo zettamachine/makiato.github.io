@@ -10,7 +10,6 @@ tags:
 - enterprise architecture
 - design thinking
 headshot: "/images/blog/reference.architecture.jpg"
-
 ---
 This is not a blog post about an emerging technology or a hot off the press IT trend, but just some notes about one of the pillars of every successful architecture work: Reference Architectures. This one explains what reference architectures are and why and how they are used in solution architectures.
 
