@@ -8,9 +8,9 @@ if(!!document.getElementById('email')) {
 window.onscroll= function(e) {
     e.preventDefault();
     if(window.scrollY > 0) {
-        document.querySelector('.navbar').style.backgroundColor = 'rgb(16,20,23)';
+        document.querySelector('.navbar').style.backgroundColor = 'rgb(16,20,23, 0.5)';
     } else {
-        document.querySelector('.navbar').style.backgroundColor = 'rgba(16,20,23, 0.5)';
+        document.querySelector('.navbar').style.backgroundColor = 'rgba(16,20,23)';
     }
 }
 
