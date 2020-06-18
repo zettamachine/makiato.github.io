@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The Return of the "Digital"
 author: Mehmet Akyuz
 categories:
@@ -16,11 +17,11 @@ As the world history repeats itself, we also see the technology repeating itself
 
 So, even the technology was repeating itself in this particular case, the difference was the other stuff going around in the IT world. I feel the same happening now with the term _digital_, or _digitisation_ to be more specific. Digital is certainly not a new term. There was even a company called [Digital](http://en.wikipedia.org/wiki/Digital_Equipment_Corporation) back in 60s. The idea at that time was to bring the power of computers to business, offload the errands and calculations to CPUs and the term "digital was in the same coolness level as_time machine_and _lasersaber_. However, as the business and the computers evolved more and more we found new ways to use technology and the word_digital_ become a bit of old-fashioned in the era of ERPs _et al_.
 
-Now digitisation comes back to business, and still with the similar promise: better customer experience with better use of technology. Again, the difference is the context. We are now living in a world where Gartner's <[Nexus of Forces](http://www.gartner.com/technology/research/nexus-of-forces/) (a.k.a.[SMAC](http://searchcio.techtarget.com/definition/SMAC-social-mobile-analytics-and-cloud)) became a reality. Mobile apps and social networks changed customers' expectations and behaviours as did Internet and web applications back in 90s. Customers expect to see the same swiftness and creativity from big businesses as they get from their favourite social networks. This requires businesses to upgrade the way they serve their customers and embrace an entrepreneurial spirit so they can launch innovative services to delight their customers. This also requires their internal business processes (BAU) and decision making mechanisms to keep up with this new entrepreneurial spirit. You cannot delight your customers with a fancy mobile app if your loan approval process takes a week to complete, or your collections process is not flexible enough to honour your loyal customers. Businesses should continuously investigate the ways for enhanced and leaner BAU and exploit new technologies as necessary to be able to cope with nimble start-ups. This calls for a tech-savvy business and technology professionals with strong business and customer experience acumen.
+Now digitisation comes back to business, and still with the similar promise: better customer experience with better use of technology. Again, the difference is the context. We are now living in a world where Gartner's [Nexus of Forces](http://www.gartner.com/technology/research/nexus-of-forces/) (a.k.a.[SMAC](http://searchcio.techtarget.com/definition/SMAC-social-mobile-analytics-and-cloud)) became a reality. Mobile apps and social networks changed customers' expectations and behaviours as did Internet and web applications back in 90s. Customers expect to see the same swiftness and creativity from big businesses as they get from their favourite social networks. This requires businesses to upgrade the way they serve their customers and embrace an entrepreneurial spirit so they can launch innovative services to delight their customers. This also requires their internal business processes (BAU) and decision making mechanisms to keep up with this new entrepreneurial spirit. You cannot delight your customers with a fancy mobile app if your loan approval process takes a week to complete, or your collections process is not flexible enough to honour your loyal customers. Businesses should continuously investigate the ways for enhanced and leaner BAU and exploit new technologies as necessary to be able to cope with nimble start-ups. This calls for a tech-savvy business and technology professionals with strong business and customer experience acumen.
 
 > It is worthwhile repeating that true digital transformation starts with the renovation of the business culture. I would even say it's 60% culture and 40% technology based on no scientific facts.
 
-Nevertheless, I tried to explain below how SMAC can boost digital transformation: 
+Nevertheless, I tried to explain below how SMAC can boost digital transformation:
 
 ## Mobile Applications and APIs
 
@@ -28,7 +29,7 @@ What can be greater for a business than to be everywhere at anytime. In 2000, I'
 
 ## Social Enterprise
 
-No my friend, [email will never die](http://readwrite.com/2012/09/04/email-will-never-die-the-man-who-invented-it-reveals-why). 
+No my friend, [email will never die](http://readwrite.com/2012/09/04/email-will-never-die-the-man-who-invented-it-reveals-why).
 
 But that doesn't mean we don't need better ways for interacting with co-workers and customers. Especially if we are keen on accelerating our internal processes, employing efficient communication channels is critical. We should have inter-company social networks not only where people chat and share cat photos but actually reach out to right people, right data and right tools. Knowledge sharing on these platforms should be endorsed and rewarded and social media in general must be considered as a serious business channel. Goes without saying, effective communications can only be achieved with the right organisation culture. If your employees are waiting more than 24 hours to get any type of response from their co-workers, or you block access to Twitter because you are scared that your employees can reveal company secrets in 140 characters, you might have more important issues to tackle on.
 
