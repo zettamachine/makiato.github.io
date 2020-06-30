@@ -19,7 +19,9 @@ h1 {
 h2 {
     font-size: 1.4rem;
 }
-
+h3 {
+    font-size: 1.2rem;
+}
 blockquote {
     display: block;
     border-top: 1px solid rgb(101,102,104);
@@ -98,9 +100,9 @@ blockquote:before {
     
 }
 .navbar-item {
-    min-height: 2.5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
+    min-height: 1rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0rem;
 }
 .navbar-menu a:hover {
     color: rgb(21,22,24);
