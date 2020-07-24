@@ -36,6 +36,7 @@
                     {% for post in site.posts limit:3 %}
                         <div class="column is-3">
                             <div class="card">
+                                <h1><a href="{{ post.url }}" class="title">{{ post.title }}</a><h1></h1>
                                 <div class="card-image">
                                     <a href="{{ post.url }}">
                                         <figure class="image is-4by3 is-front-image">
@@ -44,7 +45,7 @@
                                     </a>
                                 </div>
                                 <div class="card-content">
-                                    <h1><a href="{{ post.url }}" class="title">{{ post.title }}</a><h1>
+                                    
                                     <p class="content">
                                         {{ post.excerpt | strip_html | truncatewords: 20 }}
                                     </p>
