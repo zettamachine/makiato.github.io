@@ -52,6 +52,11 @@ blockquote:before {
     font-family: 'Roboto Slab';
     font-size: 1rem;
 }
+.card-content .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-bottom: 0; 
+}
 .section {
     background: transparent;
 }
