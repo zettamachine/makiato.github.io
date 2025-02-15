@@ -207,6 +207,15 @@ blockquote:before {
     height: 45px;
     max-height: 45px;
 }
+pre {
+    overflow: auto; /* I added this */
+    padding: 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+   /* white-space: pre-wrap; I deleted this
+    word-wrap: break-word;  and this
+    word-break: break-all; and also this */ 
+  }
 /*
 .ci-image-wrapper {
     position: relative;
