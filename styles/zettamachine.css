@@ -5,7 +5,6 @@ html {
 body {
 	font-family: 'Roboto Slab';
     background: rgb(16,20,23);
-    overflow-y: scroll;
 }
 a {
     color: rgb(21,22,24);
@@ -69,7 +68,6 @@ blockquote:before {
     background-size: cover;
 	height: auto;
 	max-height: 100vh;
-    overflow-y: scroll;
 }
 .blog-body {
     background-color: transparent;
@@ -79,11 +77,9 @@ blockquote:before {
     background-size: cover;
 	height: auto;
 	max-height: 100vh;
-    overflow-y: scroll;
 }
 .blog-wrapper {
     background: transparent;
-    overflow-y: scroll;
 }
 .vertical-gap {
 	height: 50vh;
