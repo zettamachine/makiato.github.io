@@ -5,6 +5,7 @@ html {
 body {
 	font-family: 'Roboto Slab';
     background: rgb(16,20,23);
+    overflow-y: scroll;
 }
 a {
     color: rgb(21,22,24);
