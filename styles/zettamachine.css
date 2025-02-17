@@ -66,6 +66,7 @@ blockquote:before {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    background-image: url()"/images/david.wrapper.jpg");
 	height: auto;
 	max-height: 100vh;
 }
